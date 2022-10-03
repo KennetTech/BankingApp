@@ -21,7 +21,12 @@ class BankSystem extends React.Component{
 class Navbar extends React.Component {
   render() {
     return (
-      <div className='navbar'><button>This is a button</button></div>
+      <div className='navbar'>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Accounts</a>
+        <a href="#contact">Loan</a>
+        <a href="#about">Support</a>
+      </div>
 
     );
   }
