@@ -5,8 +5,8 @@ import './index.css';
 class BankSystem extends React.Component{
   render() {
     return (
-    <div className='BankSystem'>
-      <div className='BankSystemNavbar'>
+    <div className='banksystem'>
+      <div className='banksystemnavbar'>
       <Navbar />
       </div>
         <div className='AppPage'>
@@ -21,8 +21,7 @@ class BankSystem extends React.Component{
 class Navbar extends React.Component {
   render() {
     return (
-      <><button className='navButton'></button>
-      <button className='navButton'></button></>
+      <div className='navbar'><button>This is a button</button></div>
 
     );
   }
